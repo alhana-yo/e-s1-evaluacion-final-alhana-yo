@@ -1,5 +1,74 @@
+/***********************/
+/****** VARIABLES ******/
+/***********************/
+
+// $blue: #0271bc;
+$white: #ffffff;
+$light-blue: #eff9ff;
+// $text-color-section: #000;
+// $text-color-mini-title: #8ccbea;
+// $text-font-title: 'Roboto Slab';
+$text-font: 'Roboto';
+$button-color: #f26002;
+
 
 .page__second-section {
-    background-color: purple;
-    
+    background-color: $light-blue;
+       
+}
+
+.page__wrapper--second-section {
+    width: 290px;
+    margin: 0 auto;
+    padding: 30px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/***********************/
+/******* Textos  *******/
+/***********************/
+
+.cards__wrapper {
+    max-width: 200px; 
+}
+
+.second-section__card {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__title {
+    margin: 0;
+}
+
+.card__text {
+    padding: 0;
+    text-align: center;
+
+}
+
+
+/***********************/
+/******* Button  *******/
+/***********************/
+
+.section-button {
+    margin-top: 45px;
+    background-color: $button-color;
+    width: 200px;
+    border: none;
+    border-radius: 22.5px;
+    color: $white;
+    // padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 45px;
+    font-family: $text-font;
 }
