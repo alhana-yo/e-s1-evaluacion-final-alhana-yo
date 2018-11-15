@@ -147,7 +147,23 @@ $text-font: 'Roboto';
         margin-bottom: 45px;
     }
     
+}
 
 
+
+/************************************/
+/*             DESKTOP              */
+
+@media all and (min-width: 1024px){
+    
+
+    .header__title {
+        font-size: 100px;
+        line-height: 132px;
+    }
+
+    .header__link--wrapper {
+        margin-bottom: 15px;
+    }
 
 }

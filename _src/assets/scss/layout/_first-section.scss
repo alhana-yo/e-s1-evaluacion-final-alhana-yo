@@ -40,6 +40,7 @@ $button-color: #f26002;
     margin: 0px;
     color: $text-color-section;
     font-size: 24px;
+    line-height: 30px;
     text-transform: capitalize;
     font-family: $text-font-title, sans-serif;
     font-weight: bold;
@@ -96,6 +97,7 @@ $button-color: #f26002;
 
     .section__main-title {
         font-size: 26px;
+        line-height: 45px;
     }
 
     .section__text {
@@ -109,6 +111,30 @@ $button-color: #f26002;
         height: 45px;
     }
 
+}
 
 
+/************************************/
+/*             DESKTOP              */
+
+@media all and (min-width: 1024px){
+
+    .page__wrapper--first-section {
+        width: 730px;
+        padding: 60px 0;
+    }
+    
+    .mini-title {
+        font-size: 16px;
+    }
+
+    .section__main-title {
+        font-size: 32px;
+    }
+
+    .section__link--wrapper {
+        width: 160px;
+    }
+
+    
 }

@@ -73,6 +73,7 @@ $button-color: #f26002;
     margin-top: 45px;
     background-color: $button-color;
     width: 200px;
+    height: 45px;
     border: none;
     border-radius: 22.5px;
     color: $white;
@@ -132,14 +133,32 @@ $button-color: #f26002;
 
     //Button
 
-
-
-.section-button {
-    margin-top: 55px;
+    .section-button {
+        margin-top: 55px;
+        width: 210px;
+    }
+  
 }
 
+/************************************/
+/*             DESKTOP              */
 
+@media all and (min-width: 1024px){
 
-   
+    .page__wrapper--second-section {
+        width: 850px;
+        padding-top: 60px;
+    }
+
+    .cards__wrapper {
+        max-width: 850px;
+    }
+
+    //Button
+
+    .section-button {
+        width: 225px;
+        margin-top: 60px;
+    }
 
 }
