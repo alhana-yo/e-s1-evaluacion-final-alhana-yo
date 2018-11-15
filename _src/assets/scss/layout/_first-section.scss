@@ -8,6 +8,7 @@ $text-color-section: #000;
 $text-color-mini-title: #8ccbea;
 $text-font-title: 'Roboto Slab';
 $text-font: 'Roboto';
+$button-color: #f26002;
 
 
 .page__first-section {
@@ -18,8 +19,13 @@ $text-font: 'Roboto';
 .page__wrapper--first-section {
     width: 290px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 30px 0 45px;
 }
+
+
+/***********************/
+/******* Textos  *******/
+/***********************/
 
 .mini-title {
     margin: 0px;
@@ -43,17 +49,37 @@ $text-font: 'Roboto';
 
 .section__text {
     margin: 0;
-    padding: 15px 0 30px 0;
+    padding: 15px 0 30px;
     font-family: $text-font;
     font-size: 18px;
     line-height: 30px;
 }
 
 
-
-
-
+/***********************/
+/******* Botón  *******/
+/***********************/
 
 .section__link--wrapper {
-    
+
+    box-sizing: border-box;
+    width: 76px;
+    height: 45px;
+    border: 2px solid $button-color;
+    border-radius: 22.5px;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link {
+    // line-height: 45px;
+    color: $button-color;
+    text-decoration: none;
+    font-family: $text-font, sans-serif;
+    line-height: 45px;
+
+
 }
