@@ -1,5 +1,66 @@
+/***********************/
+/****** VARIABLES ******/
+/***********************/
+
+// $blue: #0271bc;
+$dark-blue: #304268;
+$white: #ffffff;
+$light-blue: #eff9ff;
+// $text-color-section: #000;
+// $text-color-mini-title: #8ccbea;
+// $text-font-title: 'Roboto Slab';
+$text-font: 'Roboto';
+$button-color: #f26002;
+
+
 
 .page__footer {
-    background-color: aqua;
-    height: 200px;
+    background-color: $dark-blue;
+    
+}
+
+.page__footer--wrapper {
+    width: 290px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+        
+}
+
+
+/***********************/
+/******* FLECHA ********/
+/***********************/
+
+
+.footer__link--wrapper {
+    // background-color: $white;
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************/
+/******** SPANS ********/
+/***********************/
+
+.footer__span--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__span {
+    padding: 5px 0;
+    font-family: $text-font;
+    font-size: 14px;
+    color: $white;
+}
+
+.❤︎ {
+    color: $button-color;
 }
