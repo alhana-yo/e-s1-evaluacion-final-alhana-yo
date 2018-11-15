@@ -19,8 +19,26 @@ $text-font: 'Roboto';
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
     
 }
+
+
+//Anchor
+.page__header {
+    .anchor {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: -5px;
+        top: 0px;
+
+        // width: 20px;
+        // height: 20px;
+        // background-color: red;
+    }
+}
+
 
 .page__wrapper {
     min-height: 100vh;
