@@ -44,7 +44,7 @@ $button-color: #f26002;
     align-items: center;
 
     position: absolute;
-    top:-20%;
+    top:-15%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -64,9 +64,21 @@ $button-color: #f26002;
     padding: 5px 0;
     font-family: $text-font;
     font-size: 14px;
+    line-height: 30px;
     color: $white;
 }
 
 .❤︎ {
     color: $button-color;
+}
+
+
+/************************************/
+/*              TABLET              */
+
+@media all and (min-width: 768px){ 
+
+
+   
+
 }

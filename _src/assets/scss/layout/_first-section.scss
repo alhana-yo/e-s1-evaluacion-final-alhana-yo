@@ -2,7 +2,6 @@
 /****** VARIABLES ******/
 /***********************/
 
-// $blue: #0271bc;
 $white: #ffffff;
 $text-color-section: #000;
 $text-color-mini-title: #8ccbea;
@@ -79,7 +78,37 @@ $button-color: #f26002;
     color: $button-color;
     text-decoration: none;
     font-family: $text-font, sans-serif;
+    font-size: 20px;
     line-height: 45px;
+
+
+}
+
+
+/************************************/
+/*              TABLET              */
+
+@media all and (min-width: 768px){
+
+    .page__wrapper--first-section {
+        width: 690px;
+    }
+
+    .section__main-title {
+        font-size: 26px;
+    }
+
+    .section__text {
+        font-size: 20px;
+    }
+
+    //botón
+
+    .section__link--wrapper {
+        width: 91px;
+        height: 45px;
+    }
+
 
 
 }
