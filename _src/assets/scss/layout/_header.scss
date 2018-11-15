@@ -1,3 +1,12 @@
+
+/****** VARIABLES ******/
+$blue: #0271bc;
+$white-text: #ffffff;
+$text-font-title: 'Roboto Slab';
+$text-font: 'Roboto';
+
+
+
 .page__header {
     // background-color: yellowgreen;
    
@@ -11,6 +20,7 @@
 
 .page__wrapper {
     min-height: 100vh;
+    // width: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,13 +33,24 @@
     position: fixed;
     top: 0;
     left: 0;
+    
+    background-color: red;
 }
 
 .menu-button {
     border: 0;
     padding: 0;
+    height: 44px;
+    width: 44px; 
+    line-height: 44px;
+    background-color: $blue;
+   
 }
 
+.menu-image {
+    width: 16px;
+    height: 14px;
+}
 
 /****** Menu-text ******/
 
@@ -37,7 +58,44 @@
     /*Duda: este tipo de paddings, ¿es mejor ponerlos con unidades realtivas o con px fijos?*/
     margin-bottom: 10%;
 
+    width: 290px;
+    text-align: center;
+    color: $white-text;
+    
+   
 }
+
+
+.titles {
+    margin: 0;
+    
+    min-height: 110px;
+    font-family: $text-font-title, serif;
+}
+
+.header__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: bold;
+
+}
+
+.text {
+    min-height: 21px;
+    margin-top: 2%;
+
+}
+
+.header__text {
+    font-family: $text-font, sans-serif;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+
 
 
 
