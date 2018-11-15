@@ -40,7 +40,6 @@ $text-font: 'Roboto';
     top: 0;
     left: 0;
     
-    // background-color: red;
 }
 
 .menu-button {
@@ -122,4 +121,33 @@ $text-font: 'Roboto';
 .arrow__wrapper {
     //transform: translateY(50%);
     // line-height: 45px;
+}
+
+
+/************************************/
+/*              TABLET              */
+
+@media all and (min-width: 768px){
+
+    .header__text--wrapper {
+        margin-bottom: 5%;
+        width: auto;
+    }
+
+    .header__title {
+        font-size: 80px;
+        line-height: 106px;
+    }
+
+    .header__text {
+        font-size: 24px;
+    }
+
+    .header__link--wrapper {
+        margin-bottom: 45px;
+    }
+    
+
+
+
 }
