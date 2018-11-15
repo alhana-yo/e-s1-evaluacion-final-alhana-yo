@@ -32,7 +32,13 @@ $button-color: #f26002;
 /***********************/
 
 .cards__wrapper {
-    max-width: 200px; 
+    max-width: 200px;
+    padding: 0;
+    margin: 0; 
+}
+
+.cards__element {
+    list-style: none;
 }
 
 .second-section__card {
