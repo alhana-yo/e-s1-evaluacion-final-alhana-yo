@@ -40,7 +40,7 @@ $text-font: 'Roboto';
     top: 0;
     left: 0;
     
-    background-color: red;
+    // background-color: red;
 }
 
 .menu-button {
@@ -112,6 +112,7 @@ $text-font: 'Roboto';
     width: 45px;
     height: 45px;
     background-color: $white;
+    box-sizing: border-box;
     // text-align: center;
     display: flex;
     justify-content: center;
