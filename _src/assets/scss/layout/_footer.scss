@@ -46,28 +46,28 @@ $button-color: #f26002;
     position: absolute;
     top:-15%;
     left: 50%;
-    transform: translate(-50%);
+    // transform: translate(-50%);
 
-    //transform: rotate(0deg);
+    transform: translate(-50%) rotate(0deg);
 }
 
-// .footer__link--wrapper:hover {
-//     animation-duration: 1s;
-//     animation-name: slidein;
-//     transform: rotate(0deg);
-// }
+.footer__link--wrapper:hover {
+    animation-duration: 1s;
+    animation-name: slidein;
+    transform: translate(-50%) rotate(0deg);
+}
 
-// @keyframes slidein {
-//     from {
-//         transform: rotate(0deg);
-//     }
-//     50% {
-//         transform: rotate(90deg);
-//     }
-//     to {
-//         transform: rotate(360deg);
-//     }
-// }
+@keyframes slidein {
+    from {
+        transform: translate(-50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%) rotate(90deg);
+    }
+    to {
+        transform: translate(-50%) rotate(360deg);
+    }
+}
 
 /***********************/
 /******** SPANS ********/
