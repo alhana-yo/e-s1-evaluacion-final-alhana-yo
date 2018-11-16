@@ -1,0 +1,170 @@
+
+
+.page__hero {
+   
+    min-height: 100vh;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+//Anchor
+.page__hero {
+    .anchor {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: -5px;
+        top: 0px;
+
+    }
+}
+
+
+.page__hero--wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+// /*************************/
+// /****** Menu-button ******/
+// /*************************/
+
+// .header__menu-button--wrapper {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+    
+// }
+
+// .menu-button {
+//     border: 0;
+//     padding: 0;
+//     height: 44px;
+//     width: 44px; 
+//     line-height: 44px;
+//     background-color: $blue;
+   
+// }
+
+// .menu-image {
+//     width: 16px;
+//     height: 14px;
+// }
+
+
+
+
+/***********************/
+/****** Menu-text ******/
+/***********************/
+
+.hero__text--wrapper {
+    /*Duda: este tipo de paddings, ¿es mejor ponerlos con unidades realtivas o con px fijos?*/
+    margin-bottom: 10%;
+    width: 290px;
+    text-align: center;
+    color: $text-color;
+       
+}
+
+
+.titles {
+    margin: 0;
+    min-height: 110px;
+    font-family: $text-font-title, serif;
+}
+
+.hero__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: bold;
+
+}
+
+.text {
+    min-height: 21px;
+    margin-top: 2%;
+
+}
+
+.hero__text {
+    font-family: $text-font, sans-serif;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+
+/***************************/
+/****** Hero-button ******/
+/***************************/
+
+.hero__link--wrapper {
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    border-radius: 22.5px;
+    width: 45px;
+    height: 45px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/************************************/
+/*              TABLET              */
+
+@media all and (min-width: 768px){
+
+    .hero__text--wrapper {
+        margin-bottom: 5%;
+        width: auto;
+    }
+
+    .hero__title {
+        font-size: 80px;
+        line-height: 106px;
+    }
+
+    .hero__text {
+        font-size: 24px;
+    }
+
+    .hero__link--wrapper {
+        margin-bottom: 45px;
+    }
+    
+}
+
+
+
+/************************************/
+/*             DESKTOP              */
+
+@media all and (min-width: 1024px){
+    
+
+    .hero__title {
+        font-size: 100px;
+        line-height: 132px;
+    }
+
+    .hero__link--wrapper {
+        margin-bottom: 15px;
+    }
+
+}
