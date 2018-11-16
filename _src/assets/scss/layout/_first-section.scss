@@ -3,6 +3,7 @@
 /***********************/
 
 $white: #ffffff;
+$mint: #98ff98;
 $text-color-section: #000;
 $text-color-mini-title: #8ccbea;
 $text-font-title: 'Roboto Slab';
@@ -87,6 +88,16 @@ $button-color: #f26002;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $white;
+
+
+    transition: background-color ease .8s, width ease .8s, height ease .8s;
+    &:hover {
+        background-color: $mint;
+        width: 105px;
+        height: 55px;
+       
+    }
 
 }
 
@@ -98,6 +109,10 @@ $button-color: #f26002;
     font-size: 20px;
     line-height: 45px;
 
+    transition: font-size ease .8s;
+    &:hover {
+        font-size: 25px;
+    }
 
 }
 
@@ -125,6 +140,14 @@ $button-color: #f26002;
     .section__link--wrapper {
         width: 91px;
         height: 45px;
+
+
+
+        transition: width ease .8s;
+    &:hover {
+            width: 115px;
+               
+        }
     }
 
 }
@@ -150,6 +173,12 @@ $button-color: #f26002;
 
     .section__link--wrapper {
         width: 160px;
+
+        transition: width ease .8s;
+    &:hover {
+            width: 185px;
+                           
+        }
     }
 
     

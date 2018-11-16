@@ -10,6 +10,8 @@ $light-blue: #eff9ff;
 $text-font-title: 'Roboto Slab';
 $text-font: 'Roboto';
 $button-color: #f26002;
+$button-hover-color: #fbc299;
+$button-hover-line-color: orangered;
 
 
 .page__second-section {
@@ -83,6 +85,15 @@ $button-color: #f26002;
     font-size: 20px;
     line-height: 45px;
     font-family: $text-font;
+
+    transition: background-color ease .8s, border-color ease .8s, height ease .8s, font-size ease .8s;
+    &:hover {
+            background-color: $button-hover-color;
+            border: 5px solid $button-hover-line-color;
+            height: 60px;    
+            font-size: 25px;
+            color: $button-hover-line-color;                      
+        }
 }
 
 
