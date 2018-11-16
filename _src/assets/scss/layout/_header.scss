@@ -1,18 +1,6 @@
 
-/***********************/
-/****** VARIABLES ******/
-/***********************/
-
-$blue: #0271bc;
-$white: #ffffff;
-$text-color: #ffffff;
-$text-font-title: 'Roboto Slab';
-$text-font: 'Roboto';
-
-
 
 .page__header {
-    // background-color: yellowgreen;
    
     min-height: 100vh;
     background-image: url(../images/cover.jpg);
@@ -33,21 +21,19 @@ $text-font: 'Roboto';
         left: -5px;
         top: 0px;
 
-        // width: 20px;
-        // height: 20px;
-        // background-color: red;
     }
 }
 
 
 .page__wrapper {
     min-height: 100vh;
-    // width: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
+
+
 
 /*************************/
 /****** Menu-button ******/
@@ -75,6 +61,9 @@ $text-font: 'Roboto';
     height: 14px;
 }
 
+
+
+
 /***********************/
 /****** Menu-text ******/
 /***********************/
@@ -91,7 +80,6 @@ $text-font: 'Roboto';
 
 .titles {
     margin: 0;
-    
     min-height: 110px;
     font-family: $text-font-title, serif;
 }
@@ -130,16 +118,11 @@ $text-font: 'Roboto';
     width: 45px;
     height: 45px;
     background-color: $white;
-    // text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.arrow__wrapper {
-    //transform: translateY(50%);
-    // line-height: 45px;
-}
 
 
 /************************************/

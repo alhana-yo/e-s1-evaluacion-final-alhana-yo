@@ -1,18 +1,3 @@
-/***********************/
-/****** VARIABLES ******/
-/***********************/
-
-// $blue: #0271bc;
-$white: #ffffff;
-$light-blue: #eff9ff;
-// $text-color-section: #000;
-// $text-color-mini-title: #8ccbea;
-$text-font-title: 'Roboto Slab';
-$text-font: 'Roboto';
-$button-color: #f26002;
-$button-hover-color: #fbc299;
-$button-hover-line-color: orangered;
-
 
 .page__second-section {
     background-color: $light-blue;
@@ -29,9 +14,9 @@ $button-hover-line-color: orangered;
 }
 
 
-/***********************/
+/***************************/
 /******* Cards list  *******/
-/***********************/
+/***************************/
 
 .cards__wrapper {
     max-width: 200px;
@@ -116,7 +101,7 @@ $button-hover-line-color: orangered;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
-        // grid-gap: 1fr;
+        
     }
 
     .cards__wrapper:first-child {

@@ -1,18 +1,3 @@
-/***********************/
-/****** VARIABLES ******/
-/***********************/
-
-// $blue: #0271bc;
-$dark-blue: #304268;
-$white: #ffffff;
-$light-blue: #eff9ff;
-// $text-color-section: #000;
-// $text-color-mini-title: #8ccbea;
-// $text-font-title: 'Roboto Slab';
-$text-font: 'Roboto';
-$button-color: #f26002;
-
-
 
 .page__footer {
     background-color: $dark-blue;
@@ -46,8 +31,7 @@ $button-color: #f26002;
     position: absolute;
     top:-15%;
     left: 50%;
-    // transform: translate(-50%);
-
+    
     transform: translate(-50%) rotate(0deg);
 }
 
@@ -68,6 +52,7 @@ $button-color: #f26002;
         transform: translate(-50%) rotate(360deg);
     }
 }
+
 
 /***********************/
 /******** SPANS ********/
