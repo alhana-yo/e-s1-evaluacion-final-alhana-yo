@@ -1,0 +1,41 @@
+.page__third-section {
+    background-color: $button-color;
+
+}
+
+
+.page__wrapper--third-section {
+
+    margin: 0 20px;
+    color: $white;
+
+}
+
+.third-section__title {
+    margin: 0;
+
+}
+
+.third-section__link {
+    margin: 0;
+}
+
+
+@media all and (min-width: 768px){
+
+    .page__third-section {
+        background-color: $dark-blue;
+    
+    }
+
+    .page__wrapper--third-section {
+
+        display: flex;
+        justify-content: space-between;
+
+    
+    }
+
+
+
+}
